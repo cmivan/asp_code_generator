@@ -1,0 +1,25 @@
+body{
+background-color:#000000;
+margin:0;
+}
+
+
+.div_center{
+	width:500px;
+	margin:auto;
+	padding-top:150px;
+}
+
+.input_style{
+background-image:url("../Fanren_Images/Fanren_Login/login_input.png");
+background-repeat:no-repeat;
+background-position:bottom;
+padding-left:5px;
+}
+.input_style input{
+	WIDTH: 155px;
+	HEIGHT: 16px;
+	border:0;
+	background-color:#FFFFFF;
+	color:#000000;
+}

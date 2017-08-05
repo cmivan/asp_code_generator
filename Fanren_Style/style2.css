@@ -1,0 +1,215 @@
+body{ margin:0px 0px 0px 0px; float:left; font-size:12px;OVERFLOW-X: hidden; OVERFLOW: hidden; }
+
+td { font-size:12px; }
+a { color: #135294; text-decoration: none; }
+a:hover { color: #ff6600; text-decoration: underline; }
+#nav{
+	list-style: none;
+	margin-top:-5px !important;
+	margin-top:0px;
+}
+
+#nav ul { 
+	padding: 0;
+	margin:0;
+	list-style: none;
+    z-index:99;
+    position:relative;
+    overflow:visible;  
+}
+
+#nav li {
+	margin:0;
+	position: relative;
+	float:right;
+	display:block;
+	height:auto;
+}
+ 
+#nav ul a {
+	text-decoration:none;
+	padding-left: 12px;
+	display:block;
+	line-height:2em;
+	text-indent:0.5em;
+	font-size: 12px;
+	background-color: #F5FDFF;
+	/*border-right: 1px solid #c50000;
+	border-bottom: 1px solid #c50000;
+	border-left: 1px solid #c50000;*/
+	color: #135294;
+	border-right: 1px solid #185790;
+	border-left: 1px solid #185790;
+}
+#nav ul a:hover {
+    padding-left: 10px;
+	background-image:url(../Fanren_Images/steler.gif); background-repeat: repeat-y;
+	color: #ffffff;
+}
+
+#nav a:hover, #nav li:hover{
+}
+#nav ul li:hover, #nav ul li a:hover { 
+}
+.ab { color: #FFFFFF; padding-left: 10px}
+
+
+#nav ul{
+    display:none;   
+}
+
+/*all see this */
+#nav ul, #nav ul ul{
+    display:none; 
+    position:absolute; 	
+	left: 30px;
+}
+#nav ul {	
+	left: 22px;
+}
+#nav ul ul {
+	left: 91px;
+}
+/* non-IE browsers see this */
+ #nav ul li>ul, #nav ul ul li>ul{
+    margin-top:-1.4em; 
+ }
+
+ 
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul, #nav li:hover ul ul ul ul ul{
+    display:none; 
+}
+
+#nav li:hover ul, #nav ul li:hover ul, #nav ul ul li:hover ul, #nav ul ul ul li:hover ul, #nav ul ul ul ul li:hover ul{
+    display:block;
+}
+
+
+
+li>ul { 
+	top: auto;
+	left: auto;
+}
+/* 一级栏目 */
+#nav a.nav_product,
+#nav a.nav_event,
+#nav a.nav_support,
+#nav a.nav_service,
+#nav a.nav_club,
+#nav a.nav_canon {
+	background-image:url(../Fanren_Images/menu02.gif);
+	background-repeat: no-repeat;
+	display: block;
+	width: 65px;
+	height:23px;
+	border: none;
+	text-align: center;
+	margin-right: 1px;
+	padding-top: 9px
+}
+#nav a.nav_html { 
+    background-image:url(../Fanren_Images/menu01.gif);
+	background-repeat: no-repeat;
+	display: block;
+	width: 100px;
+	height:23px;
+	border: none;
+	text-align: center;
+	margin-right: 1px;
+	padding-top: 9px
+}
+#nav a.nav_claer { float:left; width: 3px; height: 23px; margin-right: 1px; background-image: url(../Fanren_Images/menu01_right.gif); background-repeat:no-repeat}
+a.cmenu {
+    width: 150px;
+	background-position: right center;	
+}
+ul#nav ul {
+	width: 150px;
+}
+ul#nav ul ul {
+	margin-top: -1px;
+}
+ul#nav ul li a {
+	width: 150px;
+}
+ul#nav ul {
+	border-top-width: 1px;
+	border-top-style: solid;
+	/*border-top-color: #ffffff;margin-top: -1px;*/
+	border-top-color: #337ABB;	
+	z-index: 100;
+}
+ul#nav ul ul {
+	top: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	/*border-top-color: #c50000;*/
+	border-top-color: #dedede;
+}
+ul#nav ul ul li a {
+	width: 150px;
+}
+
+ul#nav ul#sm_prd ul li a {
+	width: 150px;
+}
+ul#nav ul#sm_canon {
+	left: 5px;
+}
+ul#nav ul#sm_canon ul li a {
+	width: 80px;
+}
+ul#nav ul#sm_canon ul {
+	left: -81px;
+}
+ul#sm_prd ul.ntb,
+ul#sm_sp ul.ntb,
+ul#sm_srv ul.ntb,
+ul#sm_canon ul.ntb {
+	border-top-style: none;
+	margin-top: 1px;
+}
+ul#sm_prd ul.supply {
+	margin-top: -190px;
+}
+#sitenav { float:none; width: 810px; height: 50px}
+
+
+.top_table { width:100%; background:url(../Fanren_Images/top_bg.gif); height:41px; }
+.top_table_leftbg { width:auto; background-image:url(../Fanren_Images/top_table_leftbg.gif); background-repeat: repeat-y ; height:41px; }
+.system_logo { width:15%; float:left; text-align:left; }
+.system_lano {
+	width:85%;
+	float:left;
+	padding-top: 32px;
+	background-image:url(../Fanren_Images/topbg.jpg);
+	background-repeat:repeat-x;
+	height: 55px;
+	padding-right: 16px;
+}
+.system_lano .qing { float:left; height: 23px; width: 823px; color:#FFFFFF}
+.system_lano .qing .cler { float:left; width: 65px; height: 23px; font-size: 12px; padding-top: 7px; background-image:url(../Fanren_Images/menu01.gif); text-align:center}
+.system_lano .qing .clsr { float:left; width: 80px; height: 23px; font-size: 12px; padding-top: 7px; background-image:url(../Fanren_Images/menu01.gif); text-align:center}
+.system_lano .qing .clar { float:left; width: 3px; height: 23px; margin-right: 1px; background-image: url(../Fanren_Images/menu01_right.gif); background-repeat:no-repeat}
+a:link { color:#ffffff;text-decoration:none}
+a:hover {color:#ffffff;}
+a:visited {color:#f0f0f0;text-decoration:none}
+.spa {FONT-SIZE: 9pt; FILTER: Glow(Color=#0F42A6, Strength=2) dropshadow(Color=#0F42A6, OffX=2, OffY=1,); COLOR: #8AADE9; FONT-FAMILY: '宋体'}
+img {filter:Alpha(opacity:100); chroma(color=#FFFFFF)}
+.left_iframe{HEIGHT: 100%; VISIBILITY: inherit;WIDTH: 181px; background:transparent;}
+.main_iframe {
+	HEIGHT: 95%;
+	VISIBILITY: inherit;
+	WIDTH:100%;
+	Z-INDEX: 1
+}
+.main_left {table-layout:auto; background:url(skins/images/left_bg.gif)}
+.main_left_title {
+	text-align:left;
+	padding-left:15px;
+	font-size:14px;
+	font-weight:bold;
+	color:#CCCCCC;
+}
+.main_left_top {background:url(skins/images/left_menu_bg.gif); padding-top:2px !important; padding-top:5px;}
+.navPoint { CURSOR: hand; }
